@@ -1,0 +1,135 @@
+.cards {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 18em;
+  height: 30em;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  margin: 1em;
+  animation: card 1s ease-in-out;
+
+  @keyframes card {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 28px 11px #a8ff35;
+    cursor: pointer;
+    transform: scale(0.9);
+    button {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .title {
+    width: 90%;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    h4 {
+      font-size: 1.5rem;
+      position: relative;
+      padding-left: 0.2em;
+      padding-top: 0.5em;
+      color: black;
+    }
+    a {
+      position: relative;
+      padding-left: 0.2em;
+      color: black;
+    }
+  }
+
+  .price {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 2rem;
+      position: relative;
+      color: black;
+
+      a {
+        font-size: 1.125rem;
+        color: black;
+      }
+    }
+  }
+
+  hr {
+    border: 1px solid black;
+    width: 90%;
+    align-self: center;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  .content {
+    width: 90%;
+    top: 1em;
+    position: relative;
+
+    height: 55%;
+    p {
+      font-size: 0.9rem;
+      color: black;
+      font-weight: bold;
+      position: relative;
+      left: 0.5em;
+      a {
+        img {
+          position: relative;
+          padding-right: 1em;
+        }
+      }
+    }
+  }
+  button {
+    position: relative;
+
+    width: 15em;
+    height: 3em;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #a8ff35;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    transition: 0.5s;
+  }
+}
+
+.card2,
+.card4,
+.card6 {
+  background-color: #a8ff35;
+  &:hover {
+    button {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  button {
+    background-color: black;
+    color: white;
+  }
+}

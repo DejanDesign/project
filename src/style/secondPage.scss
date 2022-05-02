@@ -1,0 +1,78 @@
+$breakpoint-tablet: 850px;
+$breakpoint-tablet-smaller: 680px;
+$breakpoint-mobile: 450px;
+
+.secondLoadPage {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  p {
+    padding: 1em;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .firstContent {
+    width: 80%;
+    height: 30%;
+    position: relative;
+
+    h3 {
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 1em;
+      a {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #adadad;
+      }
+    }
+  }
+  .iconList {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      padding: 0.7em;
+      flex: 1 0 21%;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 1s;
+      img {
+        width: 10em;
+        height: 2.5em;
+      }
+      &:hover {
+        background-color: #a8ff35;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet-smaller) {
+  .secondLoadPage {
+    .iconList {
+      a {
+        flex: 1 0 40%;
+      }
+    }
+  }
+}
+@media (max-width: $breakpoint-mobile) {
+  .secondLoadPage {
+    .iconList {
+      a {
+        flex: 1 0 90%;
+      }
+    }
+  }
+}

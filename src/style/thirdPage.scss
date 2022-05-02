@@ -1,0 +1,139 @@
+$breakpoint-tablet: 850px;
+$breakpoint-tablet-smaller: 680px;
+$breakpoint-mobile: 450px;
+
+.thirdLoadPage {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 2.5rem;
+    padding-top: 3em;
+    position: relative;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    color: white;
+    width: 12em;
+    height: 2.5em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.25em;
+    cursor: pointer;
+    margin: 3em;
+  }
+
+  .icons {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4em;
+    position: relative;
+
+    a {
+      width: 7em;
+      height: 7em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      img {
+        width: 4em;
+      }
+
+      &:focus {
+        background-color: #cccccc;
+        border-radius: 1em;
+      }
+    }
+  }
+
+  .news {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5em;
+    position: relative;
+    animation: news 0.3s linear 0.1s;
+
+    @keyframes news {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    img {
+      width: 50%;
+      position: relative;
+      bottom: 3em;
+    }
+  }
+  .news2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5em;
+    position: relative;
+
+    animation: news2 2s linear 0.1s;
+
+    @keyframes news2 {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .thirdLoadPage {
+    .news {
+      width: 100%;
+      img {
+        width: 80%;
+      }
+    }
+    .news2 {
+      width: 100%;
+      img {
+        width: 60%;
+      }
+    }
+  }
+}
+@media (max-width: $breakpoint-tablet-smaller) {
+  .thirdLoadPage {
+    .icons {
+      flex-wrap: wrap;
+      a {
+        flex: 1 0 21%;
+        width: 5em;
+        height: 5em;
+        img {
+          width: 3em;
+        }
+      }
+    }
+  }
+}

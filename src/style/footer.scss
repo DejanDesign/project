@@ -1,0 +1,83 @@
+$breakpoint-tablet: 850px;
+$breakpoint-tablet-smaller: 680px;
+$breakpoint-mobile: 450px;
+
+.footer {
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  .Logo {
+    width: 20%;
+  }
+
+  .footerList {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    justify-content: space-around;
+    a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      &:hover {
+        color: #a8ff35;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet) {
+  .footer {
+    .Logo {
+      img {
+        width: 5em;
+      }
+    }
+    .footerList {
+      a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-tablet-smaller) {
+  .footer {
+    .footerList {
+      a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.65rem;
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .footer {
+    .Logo {
+      img {
+        width: 4em;
+      }
+    }
+    .footerList {
+      a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.5rem;
+      }
+    }
+  }
+}

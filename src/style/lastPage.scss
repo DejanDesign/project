@@ -1,0 +1,51 @@
+$breakpoint-tablet: 850px;
+$breakpoint-tablet-smaller: 680px;
+$breakpoint-mobile: 450px;
+
+.lastPage {
+  width: 100vw;
+  height: 20em;
+  background-color: #a8ff35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 3rem;
+  }
+
+  .firstP {
+    color: black;
+  }
+  .secondP {
+    color: #87d322;
+  }
+
+  button {
+    position: relative;
+    top: 2em;
+    width: 15em;
+    height: 3em;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    transition: 0.5s;
+    color: white;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .lastPage {
+    p {
+      font-size: 2.5rem;
+    }
+  }
+}

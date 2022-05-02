@@ -1,3 +1,5 @@
+$base-color: #c6538c;
+
 .App {
   text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $base-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
