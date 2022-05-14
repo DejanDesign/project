@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/DejanDesign/findTrend.git/static/css/main.d1f54e02.css",
+    "main.js": "/DejanDesign/findTrend.git/static/js/main.1225055d.js",
+    "static/media/news2.png": "/DejanDesign/findTrend.git/static/media/news2.b11da5bba5c5e75ee1dd.png",
+    "static/media/tesla2.png": "/DejanDesign/findTrend.git/static/media/tesla2.e8265fb01db2f8c55ef4.png",
+    "static/media/tesla3.png": "/DejanDesign/findTrend.git/static/media/tesla3.713d6d2429569fac23df.png",
+    "static/media/tesla5.png": "/DejanDesign/findTrend.git/static/media/tesla5.5f3e2c5acc237a095264.png",
+    "static/media/tesla.png": "/DejanDesign/findTrend.git/static/media/tesla.e3c4d371f225e61c9e83.png",
+    "static/media/news1.png": "/DejanDesign/findTrend.git/static/media/news1.4c054e23215303089a55.png",
+    "static/media/tesla6.png": "/DejanDesign/findTrend.git/static/media/tesla6.14c5ca0c3d4a2ff93dbb.png",
+    "static/media/tesla4.png": "/DejanDesign/findTrend.git/static/media/tesla4.1a02065af68f54116142.png",
+    "static/media/tab4.png": "/DejanDesign/findTrend.git/static/media/tab4.c31349f2f780a59efb72.png",
+    "static/media/tab2.png": "/DejanDesign/findTrend.git/static/media/tab2.fa4f94186005a88287ed.png",
+    "static/media/tab1.png": "/DejanDesign/findTrend.git/static/media/tab1.ecc1eefd9a050e53e40f.png",
+    "static/media/tab3.png": "/DejanDesign/findTrend.git/static/media/tab3.1514f12d8b263a471ca3.png",
+    "static/media/algolia.png": "/DejanDesign/findTrend.git/static/media/algolia.b934bb1aff8a3ddbb961.png",
+    "static/media/grab.png": "/DejanDesign/findTrend.git/static/media/grab.0acb595f9d5b124b4a8c.png",
+    "static/media/magento.png": "/DejanDesign/findTrend.git/static/media/magento.2603d7288e14d732938a.png",
+    "index.html": "/DejanDesign/findTrend.git/index.html",
+    "main.d1f54e02.css.map": "/DejanDesign/findTrend.git/static/css/main.d1f54e02.css.map",
+    "main.1225055d.js.map": "/DejanDesign/findTrend.git/static/js/main.1225055d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1f54e02.css",
+    "static/js/main.1225055d.js"
+  ]
+}
