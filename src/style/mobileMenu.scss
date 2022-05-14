@@ -68,6 +68,7 @@
     }
   }
   .fifth {
+    overflow: hidden;
     width: 100vw;
     height: 100vh;
     background-color: #cccccc;
@@ -97,6 +98,7 @@
       justify-content: center;
       align-items: center;
       ul {
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -105,15 +107,25 @@
           text-align: center;
           list-style: none;
           width: 8em;
+          overflow: hidden;
 
           a {
             text-decoration: none;
             font-weight: bold;
             font-size: 1.2rem;
             color: black;
+            animation: ani 5s ease;
 
             &:focus {
               color: white;
+            }
+            @keyframes ani {
+              from {
+                opacity: 0;
+              }
+              to {
+                opacity: 1;
+              }
             }
           }
         }
@@ -124,6 +136,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      overflow: hidden;
       a {
         text-decoration: none;
         color: black;
@@ -134,11 +147,16 @@
         justify-content: center;
         align-items: center;
         border-radius: 1.25em;
+        overflow: hidden;
       }
       a:focus {
         color: black;
         background-color: #ffffff;
       }
+    }
+
+    .LogoMobile {
+      overflow: hidden;
     }
   }
 }
